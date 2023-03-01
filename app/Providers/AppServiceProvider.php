@@ -28,14 +28,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Filament::serving(function () {
-            Filament::registerScripts([
-                asset('assets/export/filament-export.js'),
-            ]);
-
-            Filament::registerStyles([
-                asset('assets/export/filament-export.css'),
-            ]);
-
             Filament::registerNavigationGroups([
                 NavigationGroup::make()
                     ->label('Manage'),
