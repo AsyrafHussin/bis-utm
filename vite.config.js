@@ -19,7 +19,11 @@ export default defineConfig({
                     dest: "../assets",
                 },
                 {
-                    src: "vendor/filament/filament/dist/app.js",
+                    src: "vendor/filament/filament/dist/app.css.map",
+                    dest: "../assets",
+                },
+                {
+                    src: "vendor/filament/filament/dist/app.js.map",
                     dest: "../assets",
                 },
                 {
