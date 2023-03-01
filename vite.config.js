@@ -42,14 +42,6 @@ export default defineConfig({
                     src: "vendor/filament/filament/dist/mix-manifest.json",
                     dest: "../assets",
                 },
-                {
-                    src: "vendor/alperenersoy/filament-export/resources/css/filament-export.css",
-                    dest: "../assets",
-                },
-                {
-                    src: "vendor/alperenersoy/filament-export/resources/js/filament-export.js",
-                    dest: "../assets",
-                },
             ],
         }),
     ],
